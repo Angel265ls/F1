@@ -1,0 +1,107 @@
+header{
+    background-color: red;
+    border-radius: 40px;
+    color: wheat;
+    font-size: large;
+    font-family: "PT Serif Caption", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+body{
+    background-color: #FCFAE4;
+}
+.pt-serif caption-regular {
+    font-family: "PT Serif Caption", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .menu{
+    display: flex;
+    
+    
+}
+
+.menu p{
+    margin-right: 2rem;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 15px;
+    color: wheat;
+    font-size: 30PX;
+    font-family: "PT Serif Caption", serif;
+    margin-top: 2%;
+}
+.content {
+    margin-top: 2rem;
+}
+
+[data-content] {
+    display: none;
+}
+.active[data-content]{
+    display: block;
+}
+.General{
+    color: wheat;
+    font-size: 35px;
+    background-color: red;
+    border-radius: 10px;
+    font-family: "PT Serif Caption", serif;
+}
+
+
+ul{
+    display: flex;
+    text-decoration: none;
+    gap: 1.5rem;
+}
+
+*{
+    padding:  3px;
+    margin:  0 ;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  'Nunito' , sans-serif;
+    font-weight: 600;
+}
+
+.txt{
+    
+    color:white;
+    text-align:left;
+    float: left;
+    position: relative;
+    padding:  300px, 300px;
+    background-color: #E6AA64;
+    border-radius: 15px;
+    width: 600px;
+    margin: 1%;
+  
+    
+}
+
+img{
+    width: 450px;
+    height: 600;
+}
+
+
+
+
+
+
+footer{
+  
+    background-color: red;
+    border-radius: 15px;
+    margin: 1%;
+    padding: 50px;
+    height: 100%;
+    color: wheat;
+    font-family: "PT Serif Caption", serif;
+    margin-top: 9%;
+}
